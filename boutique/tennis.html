@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú con Imagen en el Título</title>
+    <link rel="icon" href="logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="menu-title">
+            <img src="logo.png" alt="Título del Menú">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="camisetas.html">Camisetas</a></li>
+                <li><a href="jeans.html">Jeans</a></li>
+                <li><a href="chaqueta.html">Chaquetas</a></li>
+                <li><a href="short.html">Short</a></li>
+                <li><a href="momjeans.html">MomJeans</a></li>
+                <li><a href="contacto.html">Contactos</a></li>
+            </ul>
+        </nav>
+       
+      
+        
+                    <h1>SHORT</h1>
+                    <div id="cart-container">
+                        <button id="view-cart-btn">Ver Carrito (0)</button>
+                    </div>
+                
+            
+                <main>
+                    <section class="product-list">
+                        <div class="product" data-id="1" data-name="Camiseta" data-price="685">
+                            <img src="t1.jpeg" reight="500 px" height="500 px" alt="Camiseta">
+                            <p>$168</p>
+                            <button class="add-to-cart">Añadir al carrito</button>
+                            
+                        </div>
+                        <div class="product" data-id="2" data-name="Jeans" data-price="589">
+                            <img src="t2.jpeg" reight="500 px" height="500 px" alt="Jeans">
+                            <p>$452</p>
+                            <button class="add-to-cart">Añadir al carrito</button>
+                            
+                        </div>
+                        <div class="product" data-id="3" data-name="Chaqueta" data-price="1500">
+                            <img src="t3.jpeg" reight="500 px" height="500 px" alt="Chaqueta">
+                            <p>$135 </p>
+                            <button class="add-to-cart">Añadir al carrito</button>
+                           
+                        </div>
+                    </section>
+
+                    <section class="product-list">
+                        <div class="product" data-id="3" data-name="Short" data-price="1500">
+                            <img src="t4.jpeg" reight="500 px" height="500 px" alt="Chaqueta">
+                            <p>$184</p>
+                            <button class="add-to-cart">Añadir al carrito</button>
+                            
+                        </div>
+                            <div class="product" data-id="3" data-name="Mom Jeans" data-price="1500">
+                                <img src="t5.jpeg" reight="500 px" height="500 px" alt="Chaqueta">
+                                <p>$235</p>
+                                <button class="add-to-cart">Añadir al carrito</button>
+                               
+                            </div>
+                                <div class="product" data-id="3" data-name="Mom Jeans" data-price="1500">
+                                    <img src="t6.jpeg" reight="500 px" height="500 px" alt="Chaqueta">
+                                    <p>$548</p>
+                                    <button class="add-to-cart">Añadir al carrito</button>
+                                    
+                    </div>
+               
+                    </section>
+
+                    <section class="product-list">
+                        <div class="product" data-id="3" data-name="Short" data-price="1500">
+                            <img src="t7.jpeg" reight="500 px" height="500 px" alt="Chaqueta">
+                            <p>$600</p>
+                            <button class="add-to-cart">Añadir al carrito</button>
+                            
+                        </div>
+                            <div class="product" data-id="3" data-name="Mom Jeans" data-price="1500">
+                                <img src="t8.jpeg" reight="500 px" height="500 px" alt="Chaqueta">
+                                <p>$496</p>
+                                <button class="add-to-cart">Añadir al carrito</button>
+                                
+                            </div>
+                                <div class="product" data-id="3" data-name="Mom Jeans" data-price="1500">
+                                    <img src="t9.jpeg" reight="500 px" height="500 px" alt="Chaqueta">
+                                    <p>$615</p>
+                                    <button class="add-to-cart">Añadir al carrito</button>
+                                    
+                    </div>
+               
+                    </section>
+
+              
+          
+
+                    <!-- Modal para el carrito -->
+                    <div id="cart-modal" class="modal">
+                        <div class="modal-content">
+                            <h2>Carrito de Compras</h2>
+                            <ul id="cart-items"></ul>
+                            <p id="total-price">Total: $0</p>
+                            <button id="close-cart-btn">Cerrar</button>
+                        </div>
+                    
+                </main>
+            
+                <script src="app.js"></script>
+      
+            
+
+        
+    </header>
+</body>

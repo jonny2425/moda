@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú con Imagen en el Título</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.jpeg" type="image/x-icon"
+</head>
+<body>
+    <header>
+        <div class="menu-title">
+            <img src="logo.png" alt="Título del Menú">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="camisetas.html">Camisetas</a></li>
+                <li><a href="jeans.html">Jeans</a></li>
+                <li><a href="chaqueta.html">Chaquetas</a></li>
+                <li><a href="short.html">Short</a></li>
+                <li><a href="momjeans.html">MomJeans</a></li>
+                <li><a href="contacto.html">Contactos</a></li>
+
+
+            </ul>
+        </nav>
+            
+                
+        
+                    <h1>Tienda de Ropa</h1>
+                    <div id="cart-container">
+                        <button id="view-cart-btn">Ver Carrito (0)</button>
+                    </div>
+                
+            
+                <main>
+                    <section class="product-list">
+                        <div class="product" data-id="1" data-name="Camiseta" data-price="685">
+                            <img src="camiseta.jpeg" reight="500 px" height="500 px" alt="Camiseta">
+                            <h2>Camiseta</h2>
+                            <a href="camisetas.html">Ver mas</a>
+                            
+                        </div>
+                        <div class="product" data-id="2" data-name="Jeans" data-price="589">
+                            <img src="jeans.jpeg" reight="500 px" height="500 px" alt="Jeans">
+                            <h2>Jeans</h2>
+                            <a href="jeans.html">Ver mas</a>
+                            
+                        </div>
+                        <div class="product" data-id="3" data-name="Chaqueta" data-price="1500">
+                            <img src="chaqueta.jpeg" reight="500 px" height="500 px" alt="Chaqueta">
+                            <h2>Chaqueta</h2>
+                            <a href="chaqueta.html">Ver mas</a>
+                           
+                        </div>
+                    </section>
+
+                    <section class="product-list">
+                        <div class="product" data-id="3" data-name="Short" data-price="1500">
+                            <img src="short.jpeg" reight="500 px" height="500 px" alt="Chaqueta">
+                            <h2>Short</h2>
+                            <a href="short.html">Ver mas</a>
+                            
+                        </div>
+                            <div class="product" data-id="3" data-name="Mom Jeans" data-price="1500">
+                                <img src="momjeans.jpeg" reight="500 px" height="500 px" alt="Chaqueta">
+                                <h2>Mom Jeans</h2>
+                                <a href="momjeans.html">Ver mas</a>
+                               
+                            </div>
+                                <div class="product" data-id="3" data-name="Mom Jeans" data-price="1500">
+                                    <img src="tennis.jpeg" reight="500 px" height="500 px" alt="Chaqueta">
+                                    <h2>Tennis</h2>
+                                    <a href="tennis.html">Ver mas</a>
+                                    
+                    </div>
+               
+                    </section>
+
+                    
+            
+                    <section>
+                    <div class="contenedor">
+                        <div class="vaicontenedor">
+                            <figure><img src="1.jpeg"></figure>
+                            <figure><img src="s1.jpeg"></figure>
+                            <figure><img src="c2.jpeg"></figure>
+                            <figure><img src="s6.jpeg"></figure>
+                            <figure><img src="j3.jpeg"></figure>
+                            <figure><img src="c8.jpeg"></figure>
+                        </div>
+                    </div>
+                </section>
+
+                    <!-- Modal para el carrito -->
+                    <div id="cart-modal" class="modal">
+                        <div class="modal-content">
+                            <h2>Carrito de Compras</h2>
+                            <ul id="cart-items"></ul>
+                            <p id="total-price">Total: $0</p>
+                            <button id="close-cart-btn">Cerrar</button>
+                        </div>
+                    
+                </main>
+            
+                <script src="app.js"></script>
+      
+            
+
+        
+    </header>
+</body>
+</html>
